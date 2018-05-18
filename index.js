@@ -6,7 +6,7 @@ function generateQuestion () {
     return `<div class="question-${qNum}">
     <form>
     <fieldset>
-    <legend>
+    <legend role="group">
       <h2>${STORE[qNum].question}</h2>
     </legend>
     <label class="answerOption">
